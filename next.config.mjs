@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 import withPWA from 'next-pwa';
-import { setupDevPlatform } from "@cloudflare/next-on-pages/next-dev";
 
 const nextConfig = {
   reactStrictMode: true,
@@ -22,9 +21,5 @@ const pwaConfig = withPWA({
     },
   ],
 });
-
-if (process.env.NODE_ENV === "development") {
-  await setupDevPlatform();
-}
 
 export default pwaConfig(nextConfig);
