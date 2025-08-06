@@ -1,0 +1,49 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screw" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffb347;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="200" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Pin Master</text>
+  
+  <!-- Screws -->
+  <circle cx="120" cy="100" r="25" fill="url(#screw)" stroke="#d4af37" stroke-width="2"/>
+  <circle cx="120" cy="100" r="15" fill="none" stroke="#b8860b" stroke-width="2"/>
+  <line x1="110" y1="100" x2="130" y2="100" stroke="#b8860b" stroke-width="3"/>
+  <line x1="120" y1="90" x2="120" y2="110" stroke="#b8860b" stroke-width="3"/>
+  
+  <circle cx="280" cy="120" r="25" fill="url(#screw)" stroke="#d4af37" stroke-width="2"/>
+  <circle cx="280" cy="120" r="15" fill="none" stroke="#b8860b" stroke-width="2"/>
+  <line x1="270" y1="120" x2="290" y2="120" stroke="#b8860b" stroke-width="3"/>
+  <line x1="280" y1="110" x2="280" y2="130" stroke="#b8860b" stroke-width="3"/>
+  
+  <circle cx="200" cy="180" r="25" fill="url(#screw)" stroke="#d4af37" stroke-width="2"/>
+  <circle cx="200" cy="180" r="15" fill="none" stroke="#b8860b" stroke-width="2"/>
+  <line x1="190" y1="180" x2="210" y2="180" stroke="#b8860b" stroke-width="3"/>
+  <line x1="200" y1="170" x2="200" y2="190" stroke="#b8860b" stroke-width="3"/>
+  
+  <!-- Puzzle pieces -->
+  <rect x="80" y="140" width="60" height="40" rx="5" fill="#ff6b6b" opacity="0.8"/>
+  <rect x="240" y="160" width="60" height="40" rx="5" fill="#4ecdc4" opacity="0.8"/>
+  <rect x="160" y="220" width="60" height="40" rx="5" fill="#45b7d1" opacity="0.8"/>
+  
+  <!-- Tools -->
+  <rect x="50" y="240" width="8" height="40" fill="#8b4513"/>
+  <circle cx="54" cy="235" r="8" fill="#c0c0c0"/>
+  
+  <rect x="340" y="240" width="8" height="40" fill="#8b4513"/>
+  <circle cx="344" cy="235" r="8" fill="#c0c0c0"/>
+  
+  <!-- Subtitle -->
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">Screw Puzzle Quest</text>
+</svg>

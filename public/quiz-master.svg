@@ -1,0 +1,43 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9a9e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fecfef;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="200" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Quiz Master</text>
+  
+  <!-- Question mark -->
+  <circle cx="200" cy="150" r="60" fill="white" opacity="0.9"/>
+  <text x="200" y="180" text-anchor="middle" fill="#4facfe" font-family="Arial, sans-serif" font-size="80" font-weight="bold">?</text>
+  
+  <!-- Answer options -->
+  <rect x="50" y="220" width="80" height="30" rx="15" fill="#ff6b6b" opacity="0.8"/>
+  <text x="90" y="240" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">A</text>
+  
+  <rect x="150" y="220" width="80" height="30" rx="15" fill="#4ecdc4" opacity="0.8"/>
+  <text x="190" y="240" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">B</text>
+  
+  <rect x="250" y="220" width="80" height="30" rx="15" fill="#45b7d1" opacity="0.8"/>
+  <text x="290" y="240" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">C</text>
+  
+  <!-- Brain icon -->
+  <path d="M80 80 Q90 70 100 80 Q110 70 120 80 Q130 90 120 100 Q110 110 100 100 Q90 110 80 100 Q70 90 80 80" fill="url(#brain)" opacity="0.7"/>
+  <path d="M300 80 Q310 70 320 80 Q330 70 340 80 Q350 90 340 100 Q330 110 320 100 Q310 110 300 100 Q290 90 300 80" fill="url(#brain)" opacity="0.7"/>
+  
+  <!-- Stars -->
+  <polygon points="60,120 65,130 75,130 67,137 70,147 60,140 50,147 53,137 45,130 55,130" fill="#ffd700" opacity="0.8"/>
+  <polygon points="340,120 345,130 355,130 347,137 350,147 340,140 330,147 333,137 325,130 335,130" fill="#ffd700" opacity="0.8"/>
+  
+  <!-- Subtitle -->
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">Test Your Knowledge</text>
+</svg>

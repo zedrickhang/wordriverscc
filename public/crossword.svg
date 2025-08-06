@@ -1,0 +1,154 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="200" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="26" font-weight="bold">Daily Crossword</text>
+  
+  <!-- Crossword grid -->
+  <rect x="140" y="60" width="120" height="120" fill="url(#paper)" stroke="#333" stroke-width="2" rx="4"/>
+  
+  <!-- Grid cells -->
+  <g stroke="#333" stroke-width="1" fill="white">
+    <!-- Row 1 -->
+    <rect x="140" y="60" width="20" height="20" fill="#333"/>
+    <rect x="160" y="60" width="20" height="20"/>
+    <rect x="180" y="60" width="20" height="20"/>
+    <rect x="200" y="60" width="20" height="20"/>
+    <rect x="220" y="60" width="20" height="20"/>
+    <rect x="240" y="60" width="20" height="20" fill="#333"/>
+    
+    <!-- Row 2 -->
+    <rect x="140" y="80" width="20" height="20"/>
+    <rect x="160" y="80" width="20" height="20" fill="#333"/>
+    <rect x="180" y="80" width="20" height="20"/>
+    <rect x="200" y="80" width="20" height="20" fill="#333"/>
+    <rect x="220" y="80" width="20" height="20"/>
+    <rect x="240" y="80" width="20" height="20"/>
+    
+    <!-- Row 3 -->
+    <rect x="140" y="100" width="20" height="20"/>
+    <rect x="160" y="100" width="20" height="20"/>
+    <rect x="180" y="100" width="20" height="20"/>
+    <rect x="200" y="100" width="20" height="20"/>
+    <rect x="220" y="100" width="20" height="20"/>
+    <rect x="240" y="100" width="20" height="20"/>
+    
+    <!-- Row 4 -->
+    <rect x="140" y="120" width="20" height="20"/>
+    <rect x="160" y="120" width="20" height="20" fill="#333"/>
+    <rect x="180" y="120" width="20" height="20"/>
+    <rect x="200" y="120" width="20" height="20" fill="#333"/>
+    <rect x="220" y="120" width="20" height="20"/>
+    <rect x="240" y="120" width="20" height="20" fill="#333"/>
+    
+    <!-- Row 5 -->
+    <rect x="140" y="140" width="20" height="20"/>
+    <rect x="160" y="140" width="20" height="20"/>
+    <rect x="180" y="140" width="20" height="20"/>
+    <rect x="200" y="140" width="20" height="20"/>
+    <rect x="220" y="140" width="20" height="20"/>
+    <rect x="240" y="140" width="20" height="20"/>
+    
+    <!-- Row 6 -->
+    <rect x="140" y="160" width="20" height="20" fill="#333"/>
+    <rect x="160" y="160" width="20" height="20"/>
+    <rect x="180" y="160" width="20" height="20"/>
+    <rect x="200" y="160" width="20" height="20"/>
+    <rect x="220" y="160" width="20" height="20"/>
+    <rect x="240" y="160" width="20" height="20" fill="#333"/>
+  </g>
+  
+  <!-- Numbers in cells -->
+  <g fill="#333" font-family="Arial, sans-serif" font-size="8" font-weight="bold">
+    <text x="165" y="72">1</text>
+    <text x="185" y="72">2</text>
+    <text x="205" y="72">3</text>
+    <text x="225" y="72">4</text>
+    
+    <text x="145" y="92">5</text>
+    <text x="185" y="92">6</text>
+    <text x="225" y="92">7</text>
+    <text x="245" y="92">8</text>
+    
+    <text x="145" y="132">9</text>
+    <text x="185" y="132">10</text>
+    <text x="225" y="132">11</text>
+    
+    <text x="145" y="152">12</text>
+    
+    <text x="165" y="172">13</text>
+    <text x="185" y="172">14</text>
+    <text x="205" y="172">15</text>
+    <text x="225" y="172">16</text>
+  </g>
+  
+  <!-- Some filled letters -->
+  <g fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">
+    <text x="170" y="75">W</text>
+    <text x="190" y="75">O</text>
+    <text x="210" y="75">R</text>
+    <text x="230" y="75">D</text>
+    
+    <text x="150" y="95">P</text>
+    <text x="190" y="95">R</text>
+    <text x="235" y="95">A</text>
+    <text x="250" y="95">M</text>
+    
+    <text x="150" y="115">U</text>
+    <text x="170" y="115">Z</text>
+    <text x="190" y="115">Z</text>
+    <text x="210" y="115">L</text>
+    <text x="230" y="115">E</text>
+    <text x="250" y="115">S</text>
+  </g>
+  
+  <!-- Clues section -->
+  <rect x="30" y="200" width="150" height="80" fill="rgba(255,255,255,0.9)" stroke="#333" stroke-width="1" rx="5"/>
+  <text x="105" y="215" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">ACROSS</text>
+  <g fill="#555" font-family="Arial, sans-serif" font-size="10">
+    <text x="35" y="230">1. Letters that form meaning</text>
+    <text x="35" y="245">5. Brain teaser</text>
+    <text x="35" y="260">9. Crossword solver</text>
+    <text x="35" y="275">12. Daily challenge</text>
+  </g>
+  
+  <rect x="220" y="200" width="150" height="80" fill="rgba(255,255,255,0.9)" stroke="#333" stroke-width="1" rx="5"/>
+  <text x="295" y="215" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">DOWN</text>
+  <g fill="#555" font-family="Arial, sans-serif" font-size="10">
+    <text x="225" y="230">2. Vocabulary builder</text>
+    <text x="225" y="245">3. Mental exercise</text>
+    <text x="225" y="260">6. Word game</text>
+    <text x="225" y="275">10. Brain training</text>
+  </g>
+  
+  <!-- Pencil -->
+  <rect x="300" y="80" width="6" height="60" fill="#ffd700" rx="3"/>
+  <polygon points="300,80 306,80 303,70" fill="#ff6b6b"/>
+  <rect x="301" y="135" width="4" height="8" fill="#ff69b4" rx="2"/>
+  
+  <!-- Eraser marks -->
+  <circle cx="320" cy="100" r="3" fill="#ff69b4" opacity="0.3"/>
+  <circle cx="325" cy="105" r="2" fill="#ff69b4" opacity="0.3"/>
+  <circle cx="315" cy="110" r="2" fill="#ff69b4" opacity="0.3"/>
+  
+  <!-- Thinking bubble -->
+  <circle cx="80" cy="80" r="20" fill="rgba(255,255,255,0.8)" stroke="#333" stroke-width="2"/>
+  <circle cx="70" cy="95" r="8" fill="rgba(255,255,255,0.8)" stroke="#333" stroke-width="1"/>
+  <circle cx="65" cy="105" r="4" fill="rgba(255,255,255,0.8)" stroke="#333" stroke-width="1"/>
+  <text x="80" y="85" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">?</text>
+  
+  <!-- Subtitle -->
+  <text x="200" y="295" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">Classic Word Puzzles</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9a9e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fecfef;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dress" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Spotlight effect -->
+  <ellipse cx="200" cy="100" rx="150" ry="80" fill="url(#spotlight)"/>
+  
+  <!-- Title -->
+  <text x="200" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Live Star Doll</text>
+  
+  <!-- Doll figure -->
+  <!-- Head -->
+  <circle cx="200" cy="90" r="25" fill="#fdbcb4" stroke="#f4a261" stroke-width="2"/>
+  
+  <!-- Hair -->
+  <path d="M175 75 Q200 60 225 75 Q230 85 225 95 Q200 85 175 95 Q170 85 175 75" fill="#8b4513" opacity="0.8"/>
+  
+  <!-- Eyes -->
+  <circle cx="192" cy="85" r="3" fill="#2a9d8f"/>
+  <circle cx="208" cy="85" r="3" fill="#2a9d8f"/>
+  
+  <!-- Smile -->
+  <path d="M190 95 Q200 105 210 95" stroke="#e76f51" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <rect x="185" y="115" width="30" height="50" fill="url(#dress)" rx="5"/>
+  
+  <!-- Arms -->
+  <rect x="170" y="125" width="12" height="25" fill="#fdbcb4" rx="6"/>
+  <rect x="218" y="125" width="12" height="25" fill="#fdbcb4" rx="6"/>
+  
+  <!-- Legs -->
+  <rect x="190" y="165" width="8" height="30" fill="#fdbcb4" rx="4"/>
+  <rect x="202" y="165" width="8" height="30" fill="#fdbcb4" rx="4"/>
+  
+  <!-- Shoes -->
+  <ellipse cx="194" cy="200" rx="8" ry="5" fill="#e76f51"/>
+  <ellipse cx="206" cy="200" rx="8" ry="5" fill="#e76f51"/>
+  
+  <!-- Clothing items around -->
+  <!-- Dress -->
+  <rect x="50" y="120" width="40" height="60" fill="#ff6b6b" rx="8" opacity="0.8"/>
+  <rect x="55" y="125" width="30" height="50" fill="#ff9999" rx="5" opacity="0.6"/>
+  
+  <!-- Hat -->
+  <circle cx="320" cy="80" r="20" fill="#4ecdc4" opacity="0.8"/>
+  <rect x="310" y="75" width="20" height="10" fill="#45b7d1" opacity="0.8"/>
+  
+  <!-- Accessories -->
+  <circle cx="80" cy="200" r="8" fill="#ffd700" opacity="0.8"/>
+  <circle cx="80" cy="200" r="5" fill="#ffed4e" opacity="0.8"/>
+  
+  <rect x="300" y="180" width="25" height="8" fill="#ff6b6b" rx="4" opacity="0.8"/>
+  
+  <!-- Stars decoration -->
+  <polygon points="120,60 125,70 135,70 127,77 130,87 120,80 110,87 113,77 105,70 115,70" fill="#ffd700" opacity="0.7"/>
+  <polygon points="280,50 285,60 295,60 287,67 290,77 280,70 270,77 273,67 265,60 275,60" fill="#ffd700" opacity="0.7"/>
+  <polygon points="350,120 355,130 365,130 357,137 360,147 350,140 340,147 343,137 335,130 345,130" fill="#ffd700" opacity="0.7"/>
+  
+  <!-- Makeup items -->
+  <rect x="60" y="250" width="15" height="25" fill="#e76f51" rx="7"/>
+  <circle cx="67.5" cy="245" r="5" fill="#ff6b6b"/>
+  
+  <rect x="320" y="250" width="15" height="25" fill="#2a9d8f" rx="7"/>
+  <circle cx="327.5" cy="245" r="5" fill="#4ecdc4"/>
+  
+  <!-- Subtitle -->
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">Dress Up & Style</text>
+</svg>

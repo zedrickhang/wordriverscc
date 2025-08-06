@@ -1,0 +1,83 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#21CBF3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffa726;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="circuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8bc34a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="200" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="bold">Logic Blast Explorer</text>
+  
+  <!-- Central brain -->
+  <path d="M160 120 Q180 100 200 120 Q220 100 240 120 Q250 140 240 160 Q220 180 200 160 Q180 180 160 160 Q150 140 160 120" fill="url(#brain)" stroke="#e53e3e" stroke-width="3"/>
+  
+  <!-- Brain details -->
+  <path d="M170 130 Q190 125 210 130" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M175 145 Q195 140 215 145" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M170 160 Q190 155 210 160" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Circuit patterns -->
+  <rect x="80" y="80" width="40" height="4" fill="url(#circuit)"/>
+  <rect x="98" y="60" width="4" height="40" fill="url(#circuit)"/>
+  <circle cx="100" cy="82" r="6" fill="#4caf50"/>
+  
+  <rect x="280" y="120" width="40" height="4" fill="url(#circuit)"/>
+  <rect x="298" y="100" width="4" height="40" fill="url(#circuit)"/>
+  <circle cx="300" cy="122" r="6" fill="#4caf50"/>
+  
+  <rect x="120" y="200" width="40" height="4" fill="url(#circuit)"/>
+  <rect x="138" y="180" width="4" height="40" fill="url(#circuit)"/>
+  <circle cx="140" cy="202" r="6" fill="#4caf50"/>
+  
+  <rect x="260" y="200" width="40" height="4" fill="url(#circuit)"/>
+  <rect x="278" y="180" width="4" height="40" fill="url(#circuit)"/>
+  <circle cx="280" cy="202" r="6" fill="#4caf50"/>
+  
+  <!-- Logic gates -->
+  <polygon points="60,140 80,130 80,150" fill="#9c27b0" opacity="0.8"/>
+  <text x="70" y="145" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">AND</text>
+  
+  <polygon points="320,140 340,130 340,150" fill="#ff9800" opacity="0.8"/>
+  <text x="330" y="145" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">OR</text>
+  
+  <circle cx="200" cy="70" r="15" fill="#e91e63" opacity="0.8"/>
+  <text x="200" y="75" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">NOT</text>
+  
+  <!-- Puzzle pieces -->
+  <path d="M50 220 L70 220 Q75 215 80 220 L80 240 Q75 245 70 240 L50 240 Q45 235 50 230 Z" fill="#ff6b6b" opacity="0.8"/>
+  <path d="M320 220 L340 220 Q345 215 350 220 L350 240 Q345 245 340 240 L320 240 Q315 235 320 230 Z" fill="#4ecdc4" opacity="0.8"/>
+  
+  <!-- Mathematical symbols -->
+  <text x="120" y="60" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">∑</text>
+  <text x="280" y="60" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">∞</text>
+  <text x="80" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">π</text>
+  <text x="320" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">√</text>
+  
+  <!-- Energy bolts -->
+  <path d="M140 100 L150 110 L145 115 L155 125 L145 130 L150 135" stroke="#ffd700" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M260 100 L250 110 L255 115 L245 125 L255 130 L250 135" stroke="#ffd700" stroke-width="3" fill="none" opacity="0.8"/>
+  
+  <!-- Data streams -->
+  <circle cx="100" cy="120" r="3" fill="#00bcd4" opacity="0.6"/>
+  <circle cx="110" cy="125" r="3" fill="#00bcd4" opacity="0.7"/>
+  <circle cx="120" cy="130" r="3" fill="#00bcd4" opacity="0.8"/>
+  
+  <circle cx="300" cy="160" r="3" fill="#00bcd4" opacity="0.6"/>
+  <circle cx="290" cy="165" r="3" fill="#00bcd4" opacity="0.7"/>
+  <circle cx="280" cy="170" r="3" fill="#00bcd4" opacity="0.8"/>
+  
+  <!-- Subtitle -->
+  <text x="200" y="270" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">Challenge Your Mind</text>
+</svg>

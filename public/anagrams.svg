@@ -1,0 +1,113 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tile" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="200" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="26" font-weight="bold">Anagram Challenge</text>
+  
+  <!-- Original word -->
+  <text x="200" y="70" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">Rearrange the letters:</text>
+  
+  <!-- Letter tiles for original word "LISTEN" -->
+  <g>
+    <rect x="120" y="80" width="30" height="30" fill="url(#tile)" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="135" y="100" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">L</text>
+    
+    <rect x="155" y="80" width="30" height="30" fill="url(#tile)" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="170" y="100" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">I</text>
+    
+    <rect x="190" y="80" width="30" height="30" fill="url(#tile)" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="205" y="100" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">S</text>
+    
+    <rect x="225" y="80" width="30" height="30" fill="url(#tile)" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="240" y="100" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">T</text>
+    
+    <rect x="260" y="80" width="30" height="30" fill="url(#tile)" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="275" y="100" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">E</text>
+    
+    <rect x="295" y="80" width="30" height="30" fill="url(#tile)" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="310" y="100" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">N</text>
+  </g>
+  
+  <!-- Arrow indicating transformation -->
+  <path d="M200 130 L200 150" stroke="#ffd700" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffd700"/>
+    </marker>
+  </defs>
+  
+  <!-- Rearranged word "SILENT" -->
+  <text x="200" y="175" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">New word formed:</text>
+  
+  <g>
+    <rect x="120" y="185" width="30" height="30" fill="#4ecdc4" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="135" y="205" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">S</text>
+    
+    <rect x="155" y="185" width="30" height="30" fill="#4ecdc4" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="170" y="205" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">I</text>
+    
+    <rect x="190" y="185" width="30" height="30" fill="#4ecdc4" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="205" y="205" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">L</text>
+    
+    <rect x="225" y="185" width="30" height="30" fill="#4ecdc4" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="240" y="205" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">E</text>
+    
+    <rect x="260" y="185" width="30" height="30" fill="#4ecdc4" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="275" y="205" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">N</text>
+    
+    <rect x="295" y="185" width="30" height="30" fill="#4ecdc4" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="310" y="205" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">T</text>
+  </g>
+  
+  <!-- Floating letter tiles -->
+  <g opacity="0.7">
+    <rect x="50" y="120" width="25" height="25" fill="#ff6b6b" stroke="#333" stroke-width="1" rx="3" transform="rotate(15 62.5 132.5)"/>
+    <text x="62.5" y="137" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold" transform="rotate(15 62.5 137)">A</text>
+    
+    <rect x="350" y="140" width="25" height="25" fill="#45b7d1" stroke="#333" stroke-width="1" rx="3" transform="rotate(-20 362.5 152.5)"/>
+    <text x="362.5" y="157" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold" transform="rotate(-20 362.5 157)">R</text>
+    
+    <rect x="70" y="200" width="25" height="25" fill="#ffd93d" stroke="#333" stroke-width="1" rx="3" transform="rotate(25 82.5 212.5)"/>
+    <text x="82.5" y="217" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold" transform="rotate(25 82.5 217)">M</text>
+    
+    <rect x="330" y="200" width="25" height="25" fill="#ff9800" stroke="#333" stroke-width="1" rx="3" transform="rotate(-15 342.5 212.5)"/>
+    <text x="342.5" y="217" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold" transform="rotate(-15 342.5 217)">G</text>
+  </g>
+  
+  <!-- Shuffle animation indicators -->
+  <g stroke="#ffd700" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M80 95 Q90 85 100 95 Q110 105 120 95">
+      <animate attributeName="d" values="M80 95 Q90 85 100 95 Q110 105 120 95;M80 95 Q90 105 100 95 Q110 85 120 95;M80 95 Q90 85 100 95 Q110 105 120 95" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M330 95 Q340 85 350 95 Q360 105 370 95">
+      <animate attributeName="d" values="M330 95 Q340 85 350 95 Q360 105 370 95;M330 95 Q340 105 350 95 Q360 85 370 95;M330 95 Q340 85 350 95 Q360 105 370 95" dur="2s" repeatCount="indefinite" begin="1s"/>
+    </path>
+  </g>
+  
+  <!-- Score display -->
+  <rect x="50" y="250" width="100" height="25" fill="rgba(255,255,255,0.2)" rx="12"/>
+  <text x="100" y="267" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Score: 850</text>
+  
+  <!-- Timer -->
+  <rect x="250" y="250" width="100" height="25" fill="rgba(255,255,255,0.2)" rx="12"/>
+  <text x="300" y="267" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Time: 2:45</text>
+  
+  <!-- Brain icon -->
+  <path d="M30 50 Q40 40 50 50 Q60 40 70 50 Q80 60 70 70 Q60 80 50 70 Q40 80 30 70 Q20 60 30 50" fill="#ff6b6b" opacity="0.7"/>
+  <path d="M350 50 Q360 40 370 50 Q380 40 390 50 Q400 60 390 70 Q380 80 370 70 Q360 80 350 70 Q340 60 350 50" fill="#ff6b6b" opacity="0.7"/>
+  
+  <!-- Subtitle -->
+  <text x="200" y="290" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">Rearrange Letters</text>
+</svg>
